@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5E45D8C42184209A0084C421 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E45D8C32184209A0084C421 /* main.c */; };
+		5E45D8CC218421C30084C421 /* more01.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E45D8CB218421C30084C421 /* more01.c */; };
+		5E45D8D0218426480084C421 /* who1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E45D8CF218426480084C421 /* who1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		5E45D8C02184209A0084C421 /* unix-programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "unix-programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E45D8C32184209A0084C421 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5E45D8CB218421C30084C421 /* more01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = more01.c; sourceTree = "<group>"; };
+		5E45D8CE218426480084C421 /* who1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = who1.h; sourceTree = "<group>"; };
+		5E45D8CF218426480084C421 /* who1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = who1.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +62,28 @@
 		5E45D8C22184209A0084C421 /* unix-programming */ = {
 			isa = PBXGroup;
 			children = (
+				5E45D8CD218426290084C421 /* who */,
+				5E45D8CA218421A20084C421 /* more */,
 				5E45D8C32184209A0084C421 /* main.c */,
 			);
 			path = "unix-programming";
+			sourceTree = "<group>";
+		};
+		5E45D8CA218421A20084C421 /* more */ = {
+			isa = PBXGroup;
+			children = (
+				5E45D8CB218421C30084C421 /* more01.c */,
+			);
+			path = more;
+			sourceTree = "<group>";
+		};
+		5E45D8CD218426290084C421 /* who */ = {
+			isa = PBXGroup;
+			children = (
+				5E45D8CE218426480084C421 /* who1.h */,
+				5E45D8CF218426480084C421 /* who1.c */,
+			);
+			path = who;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E45D8D0218426480084C421 /* who1.c in Sources */,
 				5E45D8C42184209A0084C421 /* main.c in Sources */,
+				5E45D8CC218421C30084C421 /* more01.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
